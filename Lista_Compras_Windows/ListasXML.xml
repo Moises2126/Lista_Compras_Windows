@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ListasCompras>
+	<Categorias>
+		<Categoria nome="Padaria" fixa="true" />
+		<Categoria nome="Bazar" fixa="true" />
+		<Categoria nome="Ferragens" fixa="false" />
+		<Categoria nome="Mercearia" fixa="true" />
+		<Categoria nome="Frios e Laticínios" fixa="true"/>
+		<Categoria nome="Limpeza" fixa="true" />
+		<Categoria nome="Bricolage" fixa="true" />
+		<Categoria nome="Automóveis" fixa="true" />
+	</Categorias>
+	<Listas>
+		<Lista nome="Auchan">
+			<Produto nome="Pera Rocha" quantidade="1k" categoria="" comprado="false"/>
+			<Produto nome="Pão da casa" quantidade="6" categoria="Padaria" comprado="false"/>
+			<Produto nome="Copos de água (20cl)" quantidade="12" categoria="Bazar" comprado="false"/>
+			<Produto nome="Pão da casa" quantidade="6" categoria="Padaria" comprado="false"/>
+			<Produto nome="Cola Tudo" quantidade="1" categoria="Ferragens" comprado="false"/>
+			<Produto nome="Broa de Milho" quantidade="1/2" categoria="Padaria" comprado="false"/>
+		</Lista>
+		<Lista nome="LIDL">
+			<Produto nome="Alface" quantidade="1" categoria="" comprado="true"/>
+			<Produto nome="Bananas" quantidade="4" categoria="" comprado="false"/>
+		</Lista>
+	</Listas>
+</ListasCompras>
